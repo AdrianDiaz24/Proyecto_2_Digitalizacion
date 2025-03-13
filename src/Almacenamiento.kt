@@ -14,9 +14,12 @@ interface Almacenamiento<T> {
 
     fun listarElementos(){
         var i = 0
+        println("\n")
         for (elemento in elementos){
             i++
             println("$i. $elemento")
         }
+        println("Pulsa Intro para continuar")
+        val intro = readln()
     }
 }
