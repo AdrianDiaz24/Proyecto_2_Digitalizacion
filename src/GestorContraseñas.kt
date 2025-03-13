@@ -34,6 +34,8 @@ class GestorContraseñas() {
         }
         contraseñas.agregarElemento(Contraseña(contraseña))
         println("Contraseña creada: $contraseña")
+        println("Presiona ENTER para continuar")
+        val nada = readln()
     }
 
 }
